@@ -204,6 +204,24 @@
 
             </LinearLayout>
 
+            <TextView
+                android:id="@+id/featured_speakers_header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_accent"
+                android:padding="@dimen/padding_medium"
+                android:text="@string/featured_speakers_header"
+                android:textColor="@color/card_title"
+                android:textSize="@dimen/text_size_extra_large"
+                android:textStyle="bold" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/list_featured_speakers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false"
+                tools:listitem="@layout/item_speaker"/>
+
             <LinearLayout
                 android:id="@+id/images"
                 android:layout_width="match_parent"

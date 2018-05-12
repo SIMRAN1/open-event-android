@@ -44,6 +44,9 @@
     <string name="error_password_not_correct">Incorrect password</string>
     <string name="error_password_empty">Error, Cannot set empty password</string>
     <string name="ok">OK</string>
+    <string name="discount_code_value">Value : %1$f</string>
+    <string name="discount_code_min_quantity">Minimum Quantity : %1$d</string>
+    <string name="discount_code_max_quantity">Maximum Quantity : %1$d</string>
 
     <string name="logged_in_successfully">Successfully logged in</string>
     <string name="logged_out_successfully">Successfully logged out</string>
@@ -59,7 +62,7 @@
     <string name="title_section_tracks">Tracks</string>
     <string name="title_section_speakerlist">Speakers</string>
     <string name="title_section_location">Locations</string>
-    
+
     <string name="item_track">This is a track symbol.</string>
     <string name="session_bookmark_status">This image shows the session bookmark status.</string>
     <string name="session_speaker_icon">This is the speaker icon.</string>
@@ -74,11 +77,13 @@
     <string name="event_info">Event Info</string>
     <string name="sessions">Sessions</string>
     <string name="session_types">Session Types</string>
+    <string name="discount_code">Discount Codes</string>
 
     <!-- Drawer menu items -->
     <string name="menu_sign_up">Sign Up</string>
     <string name="menu_home">Home</string>
     <string name="menu_feed">Live Feed</string>
+    <string name="menu_twitter">Twitter Feed</string>
     <string name="menu_tracks">Tracks</string>
     <string name="menu_bookmarks">Bookmarks</string>
     <string name="menu_speakers">Speakers</string>
@@ -90,8 +95,9 @@
     <string name="menu_about">About us</string>
     <string name="session">Session Detail</string>
     <string name="menu_schedule">Schedule</string>
+    <string name="menu_notification">Notifications</string>
     <string name="descriptionEmpty">Description: To be updated soon</string>
-
+    <string name="menu_faqs">FAQs</string>
 
     <!--Navigation Drawer-->
     <string name="navigation_drawer_open">Open navigation drawer</string>
@@ -150,11 +156,12 @@
     <string name="error">Error</string>
     <string name="http_error">HTTP Error</string>
     <string name="api_not_found">API Not Found</string>
+    <string name="invalid_track">Invalid track</string>
 
     <string name="empty_list">No Bookmarks Available</string>
     <string name="bullet">"•"</string>
     <string name="bookmarks">Bookmarks</string>
-    
+
     <string name="no_upcoming_ongoing">"No upcoming/ongoing sessions in this track</string>
 
     <!--Speaker-->
@@ -205,8 +212,11 @@
     <string name="noSponsors">No Sponsors yet!</string>
     <string name="noTracks">No Tracks yet!</string>
     <string name="noFeed">No Posts yet!</string>
+    <string name="no_notification">No notifications yet!</string>
+    <string name="no_faqs">No faqs yet!</string>
     <string name="charges_warning">Data charges may apply</string>
     <string name="tracks">Track</string>
+    <string name="type">Type</string>
     <string name="dot_session">:&#160;</string>
     <string name="date">Date</string>
     <string name="duration">Duration</string>
@@ -293,6 +303,7 @@
     <string name="facebook_access_token" templateMergeStrategy="preserve" translatable="false">1786614831603417|DWqP48Lm77hBqCQDWVsq4lFixuo</string>
     <string name="no_comments">No Comments Yet :(</string>
     <string name="comments">comments</string>
+    <string name="comments_value">comments (%d)</string>
     <string name="commenter">Commenter</string>
     <string name="profile_image">Profile Image</string>
     <string name="fields">id,full_picture,message,story,created_time,link,comments</string>
@@ -304,6 +315,7 @@
     <string name="speakers_bio">About me</string>
     <string name="social_media">Social media</string>
     <string name="sessions_title_card">Sessions</string>
+    <string name="comment_body">Comment Body</string>
 
     <!--Session-detail-strings-->
     <string name="session_track_details">Session Track :</string>
@@ -324,5 +336,12 @@
     <string name="about_fragment_announcement">%s at %s</string>
     <string name="about_fragment_to_date_event">To: %s</string>
     <string name="about_fragment_from_date_event">From: %s</string>
+
+    <string name="twitter_feed">Twitter Feed</string>
+    <string name="featured_speakers_header">Featured Speakers</string>
+    <string name="login_to_continue">Please login to continue</string>
+    <string name="share_via">Share via</string>
+
+    <string name="mobile_data_pref_warning">Wifi not found. Do you want to download using Mobile Data?</string>
 
 </resources>
